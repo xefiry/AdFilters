@@ -1,0 +1,33 @@
+! Title: xefiry - Atlassian fr
+! Expires: 7 days
+! Last modified: Mon, 26 Jan 2026 08:20:40 +0100
+
+! Clean links
+||atlassian.net$removeparam=atlOrigin
+||atlassian.net$removeparam=token
+||atlassian.net$removeparam=created
+||atlassian.net$removeparam=linkSource
+||atlassian.net$removeparam=actionerId
+||atlassian.net$removeparam=sourceType
+
+! "Demandes similaires"
+atlassian.net##div.css-rjtezs:has-text("Demandes similaires")
+
+! "Response Templates"
+atlassian.net##div[data-testid="issue-view-ecosystem.connect.content-panel.com.appbox.ai.response.templates.free__rt-ticket-button-1496858690393622506"]
+
+! "Résumé des commentaires"
+atlassian.net##div[testid="servicedesk-smart-request-summary.ui.ai-container"]
+
+! Shitty AI buttons/texts
+atlassian.net##button:has-text(/^AI$/)
+atlassian.net##button:has-text("Demander à Rovo")
+atlassian.net##button:has-text("Définition")
+atlassian.net##button:has-text("Résumer"):has-text("commentaire")
+atlassian.net##div[role="presentation"]:has-text("Rovo Button")
+atlassian.net##button:has-text("Rédiger une ébauche de réponse")
+atlassian.net##button:has-text("Améliorer la réponse")
+atlassian.net##button[data-testid=atlassian-intelligence-toolbar-button]
+atlassian.net##div[aria-label="Pastilles d'ébauche de réponse : rédiger une ébauche de réponse"]
+atlassian.net##span[contenteditable="true"]:has-text("Saisissez /ai pour Atlassian Intelligence ou @ pour mentionner une personne et la prévenir.")
+atlassian.net###context-menu-rovo-chat-more-options
