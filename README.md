@@ -11,7 +11,7 @@ To subscribe to a filter, two solutions
 
 ## Filters
 
-- <a href="abp:subscribe?location=https%3A%2F%2Fraw.githubusercontent.com%2Fxefiry%2FAdFilters%2Frefs%2Fheads%2Fmain%2Ffilters_atlassian.txt&title=xefiry%20-%20Atlassian%20(fr)">Atlassian (fr)</a> - Clean links and remove invasive AI button
+- [Atlassian (fr)](https://raw.githubusercontent.com/xefiry/AdFilters/refs/heads/main/filters_atlassian.txt) - Clean links and remove invasive AI button
 
 ## Technical notes
 
