@@ -1,6 +1,6 @@
 ! Title: xefiry - Atlassian (fr)
 ! Expires: 7 days
-! Last modified: Mon, 26 Jan 2026 08:20:40 +0100
+! Last modified: Mon, 02 Feb 2026 14:14:28 +0100
 
 ! Clean links
 ||atlassian.net$removeparam=atlOrigin
@@ -31,3 +31,5 @@ atlassian.net##button[data-testid=atlassian-intelligence-toolbar-button]
 atlassian.net##div[aria-label="Pastilles d'ébauche de réponse : rédiger une ébauche de réponse"]
 atlassian.net##span[contenteditable="true"]:has-text("Saisissez /ai pour Atlassian Intelligence ou @ pour mentionner une personne et la prévenir.")
 atlassian.net###context-menu-rovo-chat-more-options
+atlassian.net##button:has-text("Suggérer une réponse")
+atlassian.net##.show-above-sm:has(button[data-testid='editor-toolbar__ask-rovo'])
