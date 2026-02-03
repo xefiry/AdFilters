@@ -14,7 +14,7 @@
 atlassian.net##div.css-rjtezs:has-text("Demandes similaires")
 
 ! "Response Templates"
-atlassian.net##div[data-testid="issue-view-ecosystem.connect.content-panel.com.appbox.ai.response.templates.free__rt-ticket-button-1496858690393622506"]
+atlassian.net##div.css-rjtezs:has-text("Response Template")
 
 ! "Résumé des commentaires"
 atlassian.net##div[testid="servicedesk-smart-request-summary.ui.ai-container"]
