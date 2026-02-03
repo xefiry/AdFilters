@@ -1,6 +1,6 @@
 ! Title: xefiry - Atlassian (fr)
 ! Expires: 7 days
-! Last modified: Mon, 02 Feb 2026 14:14:28 +0100
+! Last modified: Tue, 03 Feb 2026 12:56:58 +0100
 
 ! Clean links
 ||atlassian.net$removeparam=atlOrigin
